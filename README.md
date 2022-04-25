@@ -26,5 +26,3 @@ Refer to the following tutorial for more information: [MVVM Column Generation](h
 ## More Examples
 
 - [WinUI Data Grid - Get Started](https://github.com/DevExpress-Examples/winui-grid-get-started)
-- [WinUI Data Grid - Bind to InfiniteAsyncSource](https://github.com/DevExpress-Examples/winui-grid-virtual-sources)
-- [WinUI GridControl - Print GridControl Data in Code](https://github.com/DevExpress-Examples/winui-gridcontrol-print-grid-data)
