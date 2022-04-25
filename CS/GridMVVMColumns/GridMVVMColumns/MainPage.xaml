@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="GridMVVMColumns.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GridMVVMColumns"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:dxg="using:DevExpress.WinUI.Grid" 
+    xmlns:dx="using:DevExpress.WinUI.Core"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <dx:TypedDataTemplateSelector x:Name="ColumnSelector">
+            <DataTemplate x:Key="TextColumn" x:DataType="local:TextColumn">
+                <dxg:GridTextColumn FieldName="{x:Bind FieldName}"/>
+            </DataTemplate>
+            <DataTemplate x:Key="ComboBoxColumn" x:DataType="local:ComboBoxColumn">
+                <dxg:GridComboBoxColumn FieldName="{x:Bind FieldName}" ItemsSource="{x:Bind Items}"/>
+            </DataTemplate>
+        </dx:TypedDataTemplateSelector>
+    </Page.Resources>
+    
+    <dxg:GridControl ItemsSource="{x:Bind ViewModel.Source}"
+                     NavigationStyle="Cell"
+                     ColumnsSource="{x:Bind ViewModel.Columns}" 
+                     ColumnTemplateSelector="{StaticResource ColumnSelector}"/>
+</Page>

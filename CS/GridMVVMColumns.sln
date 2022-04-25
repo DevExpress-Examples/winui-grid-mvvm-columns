@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "GridMVVMColumns (Package)", "GridMVVMColumns\GridMVVMColumns (Package)\GridMVVMColumns (Package).wapproj", "{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridMVVMColumns", "GridMVVMColumns\GridMVVMColumns\GridMVVMColumns.csproj", "{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|arm64.ActiveCfg = Debug|arm64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|arm64.Build.0 = Debug|arm64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|arm64.Deploy.0 = Debug|arm64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|x64.ActiveCfg = Debug|x64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|x64.Build.0 = Debug|x64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|x64.Deploy.0 = Debug|x64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|x86.ActiveCfg = Debug|x86
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|x86.Build.0 = Debug|x86
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Debug|x86.Deploy.0 = Debug|x86
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|arm64.ActiveCfg = Release|arm64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|arm64.Build.0 = Release|arm64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|arm64.Deploy.0 = Release|arm64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|x64.ActiveCfg = Release|x64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|x64.Build.0 = Release|x64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|x64.Deploy.0 = Release|x64
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|x86.ActiveCfg = Release|x86
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|x86.Build.0 = Release|x86
+		{E89C0F6B-CED3-4EFC-9355-860F6B624AF3}.Release|x86.Deploy.0 = Release|x86
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Debug|arm64.ActiveCfg = Debug|arm64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Debug|arm64.Build.0 = Debug|arm64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Debug|x64.ActiveCfg = Debug|x64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Debug|x64.Build.0 = Debug|x64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Debug|x86.ActiveCfg = Debug|x86
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Debug|x86.Build.0 = Debug|x86
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Release|arm64.ActiveCfg = Release|arm64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Release|arm64.Build.0 = Release|arm64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Release|x64.ActiveCfg = Release|x64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Release|x64.Build.0 = Release|x64
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Release|x86.ActiveCfg = Release|x86
+		{E2C4D9B5-76CE-4337-8AD5-154356A2BBED}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F2339C0-DD72-4CBD-BC7B-8D5477CD2DA1}
+	EndGlobalSection
+EndGlobal
