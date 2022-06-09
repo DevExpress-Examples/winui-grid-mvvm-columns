@@ -9,7 +9,7 @@ This example describes how to define columns in a ViewModel and display them in 
 
 ![image](https://user-images.githubusercontent.com/65009440/165086151-246904b7-7ad7-48f7-9102-52fcf75888ea.png)
 
-Refer to the following tutorial for more information: [MVVM Column Generation](http://docs.devexpress.com/WinUI/403856/controls/data-grid/grid-columns/mvvm-columns).
+Refer to the following tutorial for more information: [MVVM Column Generation](http://docs.devexpress.com/WinUI/403856/controls/data-grid/grid-columns/mvvm-columns?v=22.1).
 
 ## Files to Look At
 
@@ -18,9 +18,9 @@ Refer to the following tutorial for more information: [MVVM Column Generation](h
 
 ## Documentation
 
-- [MVVM Column Generation](http://docs.devexpress.com/WinUI/403856/controls/data-grid/grid-columns/mvvm-columns)
-- [DataControlBase.ColumnsSource](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.DataControlBase.ColumnsSource)
-- [DataControlBase.ColumnTemplate](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.DataControlBase.ColumnTemplate)
+- [MVVM Column Generation](http://docs.devexpress.com/WinUI/403856/controls/data-grid/grid-columns/mvvm-columns?v=22.1)
+- [DataControlBase.ColumnsSource](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.DataControlBase.ColumnsSource?v=22.1)
+- [DataControlBase.ColumnTemplate](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.DataControlBase.ColumnTemplate?v=22.1)
 - [WinUI Data Grid](http://docs.devexpress.com/WinUI/102040/controls/data-grid)
 
 ## More Examples
